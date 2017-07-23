@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <java version="1.8.0_131" class="java.beans.XMLDecoder">
  <object class="org.opensolaris.opengrok.configuration.Configuration" id="Configuration0">
+  <void property="allowLeadingWildcard">
+   <boolean>true</boolean>
+  </void>
   <void property="ctags">
    <string>C:\softwares\BigData\ctags58\ctags.exe</string>
   </void>
   <void property="dataRoot">
    <string>C:\softwares\BigData\opengrok-1.1-rc5\grokdata</string>
+  </void>
+  <void property="generateHtml">
+   <boolean>false</boolean>
   </void>
   <void id="IgnoredNames0" property="ignoredNames">
    <void id="IgnoredDirs0" property="ignoredDirs">
@@ -47,6 +53,303 @@
    </void>
    <void id="IgnoredFiles0" property="ignoredFiles">
     <void property="items">
+     <void method="add">
+      <string>*.IMG</string>
+     </void>
+     <void method="add">
+      <string>*.db</string>
+     </void>
+     <void method="add">
+      <string>*.pyd</string>
+     </void>
+     <void method="add">
+      <string>*.001</string>
+     </void>
+     <void method="add">
+      <string>*.bsc</string>
+     </void>
+     <void method="add">
+      <string>*.phar</string>
+     </void>
+     <void method="add">
+      <string>*.lnx</string>
+     </void>
+     <void method="add">
+      <string>*.jpg</string>
+     </void>
+     <void method="add">
+      <string>*.bor</string>
+     </void>
+     <void method="add">
+      <string>*.hex</string>
+     </void>
+     <void method="add">
+      <string>*.pfl</string>
+     </void>
+     <void method="add">
+      <string>*.0001</string>
+     </void>
+     <void method="add">
+      <string>*.JPG</string>
+     </void>
+     <void method="add">
+      <string>*.png</string>
+     </void>
+     <void method="add">
+      <string>*.ttf</string>
+     </void>
+     <void method="add">
+      <string>*.vcproj</string>
+     </void>
+     <void method="add">
+      <string>*.EXE</string>
+     </void>
+     <void method="add">
+      <string>*.pyc</string>
+     </void>
+     <void method="add">
+      <string>*.pf</string>
+     </void>
+     <void method="add">
+      <string>*.zip</string>
+     </void>
+     <void method="add">
+      <string>*.0005</string>
+     </void>
+     <void method="add">
+      <string>*.m4</string>
+     </void>
+     <void method="add">
+      <string>*.stp</string>
+     </void>
+     <void method="add">
+      <string>*.sof</string>
+     </void>
+     <void method="add">
+      <string>*.ZIP</string>
+     </void>
+     <void method="add">
+      <string>*.0011</string>
+     </void>
+     <void method="add">
+      <string>*.pdf</string>
+     </void>
+     <void method="add">
+      <string>*.ncb</string>
+     </void>
+     <void method="add">
+      <string>*.inl</string>
+     </void>
+     <void method="add">
+      <string>*.sopc</string>
+     </void>
+     <void method="add">
+      <string>*.img</string>
+     </void>
+     <void method="add">
+      <string>*.wixlib</string>
+     </void>
+     <void method="add">
+      <string>*.msi</string>
+     </void>
+     <void method="add">
+      <string>*.a</string>
+     </void>
+     <void method="add">
+      <string>*.0007</string>
+     </void>
+     <void method="add">
+      <string>*.pkg</string>
+     </void>
+     <void method="add">
+      <string>*.bak</string>
+     </void>
+     <void method="add">
+      <string>*.0002</string>
+     </void>
+     <void method="add">
+      <string>*.sopcinfo</string>
+     </void>
+     <void method="add">
+      <string>*.qsf</string>
+     </void>
+     <void method="add">
+      <string>*.obj</string>
+     </void>
+     <void method="add">
+      <string>*.dat</string>
+     </void>
+     <void method="add">
+      <string>*.rpt</string>
+     </void>
+     <void method="add">
+      <string>*.tlb</string>
+     </void>
+     <void method="add">
+      <string>*.0006</string>
+     </void>
+     <void method="add">
+      <string>*.sys</string>
+     </void>
+     <void method="add">
+      <string>*.bmp</string>
+     </void>
+     <void method="add">
+      <string>*.exp</string>
+     </void>
+     <void method="add">
+      <string>*.ilk</string>
+     </void>
+     <void method="add">
+      <string>*.ppt</string>
+     </void>
+     <void method="add">
+      <string>*.out</string>
+     </void>
+     <void method="add">
+      <string>*.0010</string>
+     </void>
+     <void method="add">
+      <string>*.qsys</string>
+     </void>
+     <void method="add">
+      <string>*.lst</string>
+     </void>
+     <void method="add">
+      <string>*.cub</string>
+     </void>
+     <void method="add">
+      <string>*.dct</string>
+     </void>
+     <void method="add">
+      <string>*.v</string>
+     </void>
+     <void method="add">
+      <string>*.pdb</string>
+     </void>
+     <void method="add">
+      <string>*.d01</string>
+     </void>
+     <void method="add">
+      <string>*.d02</string>
+     </void>
+     <void method="add">
+      <string>*.gm</string>
+     </void>
+     <void method="add">
+      <string>*.lib</string>
+     </void>
+     <void method="add">
+      <string>*.ico</string>
+     </void>
+     <void method="add">
+      <string>*.ui</string>
+     </void>
+     <void method="add">
+      <string>*.raw</string>
+     </void>
+     <void method="add">
+      <string>*.DLPath</string>
+     </void>
+     <void method="add">
+      <string>*.tex</string>
+     </void>
+     <void method="add">
+      <string>*.0003</string>
+     </void>
+     <void method="add">
+      <string>*.0008</string>
+     </void>
+     <void method="add">
+      <string>*.mdl</string>
+     </void>
+     <void method="add">
+      <string>*.new</string>
+     </void>
+     <void method="add">
+      <string>*.mem</string>
+     </void>
+     <void method="add">
+      <string>*.link</string>
+     </void>
+     <void method="add">
+      <string>*.k01</string>
+     </void>
+     <void method="add">
+      <string>*.gif</string>
+     </void>
+     <void method="add">
+      <string>*.0009</string>
+     </void>
+     <void method="add">
+      <string>*.vcxproj</string>
+     </void>
+     <void method="add">
+      <string>*.gz</string>
+     </void>
+     <void method="add">
+      <string>*.PDB</string>
+     </void>
+     <void method="add">
+      <string>*.DLL</string>
+     </void>
+     <void method="add">
+      <string>elasticsearch-5.0.2</string>
+     </void>
+     <void method="add">
+      <string>*.jsa</string>
+     </void>
+     <void method="add">
+      <string>*.msg</string>
+     </void>
+     <void method="add">
+      <string>*.def</string>
+     </void>
+     <void method="add">
+      <string>*.rbf</string>
+     </void>
+     <void method="add">
+      <string>*.idb</string>
+     </void>
+     <void method="add">
+      <string>*.0004</string>
+     </void>
+     <void method="add">
+      <string>*.pch</string>
+     </void>
+     <void method="add">
+      <string>*.vhd</string>
+     </void>
+     <void method="add">
+      <string>*.pin</string>
+     </void>
+     <void method="add">
+      <string>*.pof</string>
+     </void>
+     <void method="add">
+      <string>*.jar</string>
+     </void>
+     <void method="add">
+      <string>*.tar</string>
+     </void>
+     <void method="add">
+      <string>*.rc</string>
+     </void>
+     <void method="add">
+      <string>*.pbxproj</string>
+     </void>
+     <void method="add">
+      <string>*.o</string>
+     </void>
+     <void method="add">
+      <string>*.dmp</string>
+     </void>
+     <void method="add">
+      <string>*.exe</string>
+     </void>
+     <void method="add">
+      <string>*.ism</string>
+     </void>
      <void method="add">
       <string>.hgtags</string>
      </void>
@@ -104,6 +407,17 @@
      </void>
      <void property="path">
       <string>/dev</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>atlas</string>
+    <object class="org.opensolaris.opengrok.configuration.Project">
+     <void property="name">
+      <string>atlas</string>
+     </void>
+     <void property="path">
+      <string>/atlas</string>
      </void>
     </object>
    </void>
@@ -176,9 +490,6 @@
   </void>
   <void property="sourceRoot">
    <string>C:\Viewstore\Cerber_SSA_2.5.1</string>
-  </void>
-  <void property="verbose">
-   <boolean>true</boolean>
   </void>
  </object>
 </java>
